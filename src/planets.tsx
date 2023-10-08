@@ -164,19 +164,6 @@ class Planet
 }
 
 // Mercury
-export const mercuryTexture = new THREE.ShaderMaterial({
-    uniforms:
-    {
-        globeTexture: {
-            value: textureLoader.load('./textures/planets/mercury.jpg')
-        },
-        vColor: {
-            value: [0.4, 0.4, 0.8] // Za Highlight
-        }
-    },
-    vertexShader: vertexShader,
-    fragmentShader: fragmetShader,
-});
 
 export const mercuryAtmoSphereTexture = new THREE.ShaderMaterial({
 
@@ -193,19 +180,6 @@ export const mercuryAtmoSphereTexture = new THREE.ShaderMaterial({
 });
 
 // Venus
-export const venusTexture = new THREE.ShaderMaterial({
-    uniforms:
-    {
-        globeTexture: {
-            value: textureLoader.load('./textures/planets/venus.jpg')
-        },
-        vColor: {
-            value: [0.5, 0.5, 0.5] // Za Highlight
-        }
-    },
-    vertexShader: vertexShader,
-    fragmentShader: fragmetShader,
-});
 
 export const venusAtmoSphereTexture = new THREE.ShaderMaterial({
 
@@ -222,19 +196,6 @@ export const venusAtmoSphereTexture = new THREE.ShaderMaterial({
 });
 
 // Mars
-export const marsTexture = new THREE.ShaderMaterial({
-    uniforms:
-    {
-        globeTexture: {
-            value: textureLoader.load('./textures/planets/mars.jpg')
-        },
-        vColor: {
-            value: [0.85, 0.1, 0.1] // Za Highlight
-        }
-    },
-    vertexShader: vertexShader,
-    fragmentShader: fragmetShader,
-});
 
 export const marsAtmoSphereTexture = new THREE.ShaderMaterial({
 
@@ -251,19 +212,6 @@ export const marsAtmoSphereTexture = new THREE.ShaderMaterial({
 });
 
 // Jupiter
-export const jupiterTexture = new THREE.ShaderMaterial({
-    uniforms:
-    {
-        globeTexture: {
-            value: textureLoader.load('./textures/planets/jupiter.jpg')
-        },
-        vColor: {
-            value: [0.85, 0.1, 0.1] // Za Highlight
-        }
-    },
-    vertexShader: vertexShader,
-    fragmentShader: fragmetShader,
-});
 
 export const jupiterAtmoSphereTexture = new THREE.ShaderMaterial({
 
@@ -280,19 +228,6 @@ export const jupiterAtmoSphereTexture = new THREE.ShaderMaterial({
 });
 
 // Saturn
-export const saturnTexture = new THREE.ShaderMaterial({
-    uniforms:
-    {
-        globeTexture: {
-            value: textureLoader.load('./textures/planets/saturn.jpg')
-        },
-        vColor: {
-            value: [0.85, 0.1, 0.1] // Za Highlight
-        }
-    },
-    vertexShader: vertexShader,
-    fragmentShader: fragmetShader,
-});
 
 export const saturnAtmoSphereTexture = new THREE.ShaderMaterial({
 
@@ -309,19 +244,6 @@ export const saturnAtmoSphereTexture = new THREE.ShaderMaterial({
 });
 
 // Uranus
-export const uranusTexture = new THREE.ShaderMaterial({
-    uniforms:
-    {
-        globeTexture: {
-            value: textureLoader.load('./textures/planets/uranus.jpg')
-        },
-        vColor: {
-            value: [0.85, 0.7, 0.1] // Za Highlight
-        }
-    },
-    vertexShader: vertexShader,
-    fragmentShader: fragmetShader,
-});
 
 export const uranusAtmoSphereTexture = new THREE.ShaderMaterial({
 
@@ -338,19 +260,6 @@ export const uranusAtmoSphereTexture = new THREE.ShaderMaterial({
 });
 
 // Neptun
-export const neptuneTexture = new THREE.ShaderMaterial({
-    uniforms:
-    {
-        globeTexture: {
-            value: textureLoader.load('./textures/planets/neptune.jpg')
-        },
-        vColor: {
-            value: [0.85, 0.1, 0.1] // Za Highlight
-        }
-    },
-    vertexShader: vertexShader,
-    fragmentShader: fragmetShader,
-});
 
 export const neptuneAtmoSphereTexture = new THREE.ShaderMaterial({
 

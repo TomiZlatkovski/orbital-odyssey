@@ -2,7 +2,7 @@
     {
       "name": "Mercury",
       "description": "The smallest, fastest and also the planet that is closest to the sun. The surface of Mercury is covered in tens of thousands of impact craters. Mercury is also the fastest planet, zipping around the Sun every 88 Earth days.",
-      "image": "/mercury.png",
+      "image": "mercury.png",
       "color": ["#A9A7A8","#555555"],
       "temperature": 167,
       "dayLength": {
@@ -44,7 +44,7 @@
     {
       "name": "Venus",
       "description": "The Earth's twin but with a surface hot enough to melt lead. With thick atmosphere, this planet holds its name for a love goddess.",
-      "image": "/venus.png",
+      "image": "venus.png",
       "color": ["#D0AD72","#663923"],
       "temperature": 464,
       "dayLength": {
@@ -107,7 +107,7 @@
     {
         "name": "Mars",
         "description": "Mars is no place for  the faint - hearted. It's dry, rocky and bitter cold. The fourth planet from the Sun and the easiest one to spot in the night sky - it looks like a bright red point of light.",
-        "image": "/mars.png",
+        "image": "mars.png",
         "color": ["#EB7645","#45343E"],
         "temperature": -65,
         "dayLength": {
@@ -213,7 +213,7 @@
       {
         "name": "Jupiter",
         "description": "Jupiter is named for the king of the ancient Roman gods. It is by far the largest planet in the solar system. Jupiter's stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium.",
-        "image": "/jupiter.png",
+        "image": "jupiter.png",
         "color": ["#DFD18E","#4F2B1A"],
         "temperature": -110,
         "dayLength": {
@@ -273,7 +273,7 @@
       {
         "name": "Saturn",
         "description": "A massive ball made mostly of hydrogen and helium. The presence of icy rings makes this planet unique. This is also the farthest planet discovered by naked eye.",
-        "image": "/saturn.png",
+        "image": "saturn.png",
         "color": ["#DDDC89","#A76128"],
         "temperature": -140,
         "dayLength": {
@@ -315,7 +315,7 @@
       {
         "name": "Uranus",
         "description": "Cold and windy planet, surrounded by many moons and few rings. The large amounts of methane makes this planet blue - green in color.",
-        "image": "/uranus.png",
+        "image": "uranus.png",
         "color": ["#A0D5DE","#75A7B1"],
         "temperature": -195,
         "dayLength": {
@@ -368,7 +368,7 @@
       {
         "name": "Neptune",
         "description": "The most distant planet orbiting the Sun. Big, Dark and Cold, Neptune can not be seen by a naked human eye.",
-        "image": "/neptune.png",
+        "image": "neptune.png",
         "color": ["#80B1C5","#395668"],
         "temperature": -200,
         "dayLength": {

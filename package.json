@@ -6,7 +6,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "homepage": "https://{TomiZlatkovski}.github.io/{orbital-odyssey}/",
+    "homepage": "https://TomiZlatkovski.github.io/orbital-odyssey/",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
