@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.planetLocationLabel {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: opacity 0.9s;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.root
+{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+main
+{
+    background: url("/image.png");
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Slider
+{
+    box-sizing: border-box;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+    gap: 1%;
+}
+
+
+.button
+{
+    transition: 0.5s;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 100%;
+    border: 5px solid rgb(165, 42, 42);
+    border: none;
+}
+
+.Arrows
+{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+
+.Arrows:hover
+{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+.Heading
+{
+    padding: 1%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.Planets
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 200%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+.Planets div
+{
+    transform: translate(0%);
+    transition: 2s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+
+.Planets div h1
+{
+    transition: 1s;
+    position: absolute;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: -5px;
+}
+
+.Planets div h2
+{
+    text-align: center;
+    font-weight: 300;
+    opacity: 1;
+    transition: 1s;
+    word-wrap: break-word;
+    position: absolute;
+    max-width: 100%;
+    top: 90%;
+}
+
+canvas
+{
+    z-index: 0;
+}
+
+.canvas
+{
+    transition: 2s;
+    border-radius: 100%;
+    height: 400px;
+}
+
+.BigPlanet
+{
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes MakeBig
+{
+    0%{width: 400px;height: 400px;}
+    100%{width: 500px;height: 500px;}
+}
+
+@keyframes Fade
+{
+    0%{opacity: 0.2;}
+    100%{opacity: 1;}
+}
+
+
+.Planets::-webkit-scrollbar {width: 1px;height: 0px;}
+.Planets::-webkit-scrollbar-track {background: #e4e3e3;}
+.Planets::-webkit-scrollbar-thumb {background-color: #11698E;}
+.Planets::-webkit-scrollbar-thumb:hover {background-color: #052533;}
+
+
+@keyframes SlideRight{
+    0%{transform: translate(-20%);}
+    100%{transform: translate(0%);}
+}
+
+@keyframes SlideLeft{
+    0%{transform: translate(20%);}
+    100%{transform: translate(0%);}
+}
+
+@media only screen and (max-width: 1500px) and (max-height: 799px) {
+    * {
+        font-size: 0.825rem
+    }
+    .var {
+        font-size: 2rem
+    }
+    .planetStat {
+        font-size: 1.5rem;
+    }
+    
+
+}
