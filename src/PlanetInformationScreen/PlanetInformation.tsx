@@ -78,7 +78,7 @@ export default function PlanetInformation() {
                     <h1><span className='planetStat' style={{ color: `${planet.color[0]}`}}>Days in a year: </span><span className='var'>{planet.daysInYear}</span>days</h1>
                     <h1><span className='planetStat' style={{ color: `${planet.color[0]}`}}>Length of a day: </span><span className='var'>{planet.dayLength.hours}</span>h:<span className='var'>{planet.dayLength.minutes}</span>m:<span className='var'>{planet.dayLength.seconds}</span>s</h1>
                 </div>
-                <button style={{ zIndex: 1, fontSize: "1.5rem", marginTop: "40px" }} className='Exit' onClick={() => window.location.href = "/"}><i className='fa-solid fa-arrow-left' style={{ transform: "translateY(3px)" }}></i>Explore Other Planets</button>
+                <button style={{ zIndex: 1, fontSize: "1.5rem", marginTop: "40px" }} className='Exit' onClick={() => window.location.href = "/orbital-odyssey/"}><i className='fa-solid fa-arrow-left' style={{ transform: "translateY(3px)" }}></i>Explore Other Planets</button>
             </main>
         </div>
     )

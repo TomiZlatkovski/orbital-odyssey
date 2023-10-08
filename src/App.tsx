@@ -3,7 +3,7 @@ import { Planet } from "./PlanetSelectionScreen/PlanetSelection"
 import { Slider } from "./PlanetSelectionScreen/PlanetSelection"
 import { iPlanet } from "./Interfaces.tsx";
 import PlanetInformation from "./PlanetInformationScreen/PlanetInformation.tsx";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import planets from './Resources.json'
 
 
@@ -27,13 +27,13 @@ function App() {
 
 export default function AppSoRouter() {
 	return (
-		<Router>
+		<HashRouter basename=''>
 			<Suspense fallback={<main><h1>Fetching data</h1></main>}>
 				<Routes>
-					<Route path="/" Component={App}></Route>
+					<Route path="" Component={App}></Route>
 					<Route path="/info" element={<PlanetInformation></PlanetInformation>}></Route>
 				</Routes>
 			</Suspense>
-		</Router>
+		</HashRouter>
 	) 
 }
